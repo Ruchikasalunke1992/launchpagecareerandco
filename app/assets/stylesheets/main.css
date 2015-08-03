@@ -1,0 +1,253 @@
+@charset "utf-8";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+/* CSS Document */
+
+/* CLASSES */
+.page-header2{
+	/*width:1290px;*/
+	background-image:url(../assets/headerBground.png);
+	height: 150px; 
+	margin-bottom: 0px;
+}
+
+.page-header2 .img {
+	
+	max-width: 100%;
+}
+	
+.page-banner{
+	/*width:1290px;*/
+	height:auto;
+	background-image:url(../assets/banner4.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	margin-top:0px;
+
+}
+	
+	
+.page-banner .img {
+	
+	max-width: 100%;
+}
+
+.logo {
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-left: 25px;
+	margin-bottom: 25px;
+	float: left;
+	width: 132px;
+	height: 110px;
+	background-image: url('../assets/logo.png');
+	background-repeat: no-repeat;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+	
+.c-menu {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 60px;
+	margin-bottom: 0px;
+
+	
+	}
+	
+form {
+	
+	font-family: Myriad Pro, georgia, times, serif;
+	font-size: 1.1em;
+	max-width: 2000px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: 25px;
+	margin-bottom: 25px;
+}
+
+label {width: 100%; 
+/*display: block; */
+margin-bottom: 0px;
+margin-top: 0px;}
+  
+
+input{
+  border: none;
+  padding: 5px;
+  line-height: 0.7em; 
+  margin-bottom: 1em;
+  font-size: 0.8em;
+  color: #000;
+  
+ 
+}
+
+input[type="text"] {
+	width: 90%;	
+	margin-bottom: 1em; margin-top: 0px; color: #000;
+}
+
+input[type="email"] {width: 77%;margin-bottom: 1em; margin-top: 0px; color: #000; }
+
+input[type="text"], input[type="email"] {
+  /*box-shadow: inset 0px 2px 2px #000;*/
+  /*outline: 0px;*/}
+  
+select {
+	border: none;
+  padding: 5px;
+  line-height: 0.7em; 
+  margin-bottom: 1em;
+  font-size: 0.8em;
+  color: #000 !important;
+	width: 90%;	
+	margin-top: 0px;
+}
+
+
+input[type="submit"], #submit {
+	background-color: rgba(45, 178, 203, 0.5);
+	
+	/*background-color: #2db2cb;*/
+	border-radius: 10px;
+	color: #fff;
+	
+	float: left;
+
+	font-family: sans-serif;
+	
+	font-size:1.1em;
+	font-weight:bold;
+	
+	margin-top: 19px;
+	margin-right: 2.7em;
+	margin-bottom: 1em;
+	margin-left: 15px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.40);
+}
+
+
+input[type="submit"]:hover, #submit:hover {
+  background-color:#6CCFE1;
+  cursor: pointer;
+ }
+  
+.banner{
+	float: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	color: #fff;
+	overflow: hidden;
+}
+
+h2 {
+  font-weight: normal;
+  margin: 0px;
+  
+  }
+  
+h3 {
+  font-weight: normal;
+  margin-left: 0px;
+  text-align:center;
+  }
+  
+.footer{
+	text-align: right;
+}
+
+.headerButton{
+	float: right;
+}
+	
+.buttonSignup {
+	margin-top: 40px;
+	margin-right: 0px;
+	margin-left: 60px;
+	margin-bottom: 25px;
+	text-align:center;
+	
+}
+
+.formTexts{
+	
+	display: flex;
+	
+}
+
+.intro{
+	/*margin-bottom: 20px;*/
+	margin-right: 100px;
+	font-size: 17px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #4B4B4B;
+	
+	/*font-weight:bold;*/
+}
+
+/*.mainContent{
+	
+	margin-right: auto;
+	margin-left: auto;
+	width: 1176px;
+	border-style:solid;
+	border:thin;
+	border-color:#DDDDDD;
+	
+	
+}*/
+
+.centralContents p{
+	/*background-color:rgba(197,175,27,1.00);*/
+	width: 100%;
+	/*padding-left: 15px;*/
+	/*padding-right: 15px;*/
+	/*margin:0px;*/
+	padding-left: 25px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	/*margin-right: 40px;*/
+	
+}
+
+.centralContents{
+	/*width:100%;*/
+	/*margin:0px;*/
+	/*padding:0px;*/
+	/*background-color: #8AD3D1 ;*/
+	background-color:rgba(223,223,223,1.00);
+	/*padding-left:10px;*/
+	/*padding-right:40px;*/
+	
+}
+
+.signup{
+	margin-bottom: 25px;
+	margin-right: 100px;
+	font-size: 20px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #FFFFFF;
+	
+}
+
+.benefitsQuotes
+{
+	width:100%;
+	text-align:center;
+	margin-bottom:0px;
+}
+
