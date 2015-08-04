@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-   root 'users#index'e
+   root 'users#index'
    #get '/users/showpage' => 'users#showpag' 
 
   # Example of regular route:
