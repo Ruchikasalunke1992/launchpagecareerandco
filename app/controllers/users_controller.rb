@@ -3,11 +3,10 @@ class UsersController < ApplicationController
  
   def index
   end
-   
-   
-    def show
-   
-    end
+  def show
+   @user = User.find(params[:id])  
+  end
+  
 
   def new
     @user = User.new
@@ -18,6 +17,8 @@ class UsersController < ApplicationController
     if @user.save
       # Handle a successful save.
       puts "user saved", @user
+       redirect_to :action => "show", :id => @user.id
+      
       flash[:success] = "Welcome to the Sample App!"
      
     else
