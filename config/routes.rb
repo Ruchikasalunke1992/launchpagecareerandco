@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  
+  get 'users/index'
 
  
   resources :users
@@ -7,8 +7,8 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-   root 'users#new'
-   #get '/users/showpage' => 'users#showpage' 
+   root 'users#index'e
+   #get '/users/showpage' => 'users#showpag' 
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
