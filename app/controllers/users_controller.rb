@@ -4,8 +4,9 @@ class UsersController < ApplicationController
   def index
   end
    
+   
     def show
-    @user = User.find(params[:id])
+   
     end
 
   def new
@@ -18,7 +19,7 @@ class UsersController < ApplicationController
       # Handle a successful save.
       puts "user saved", @user
       flash[:success] = "Welcome to the Sample App!"
-      render plain: "Thank you for signing up"
+     
     else
       render 'new'
     end
