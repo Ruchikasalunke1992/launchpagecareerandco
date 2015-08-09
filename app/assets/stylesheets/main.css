@@ -1,6 +1,4 @@
 @charset "utf-8";
-@import "bootstrap-sprockets";
-@import "bootstrap";
 /* CSS Document */
 
 /* CLASSES */
@@ -17,7 +15,7 @@
 }
 	
 .page-banner{
-	/*width:1290px;*/
+	width: 100%;
 	height:auto;
 	background-image:url(../assets/banner4.png);
 	background-repeat:no-repeat;
@@ -28,7 +26,7 @@
 }
 	
 	
-.page-banner .img {
+.page-banner img {
 	
 	max-width: 100%;
 }
@@ -152,6 +150,16 @@ input[type="submit"]:hover, #submit:hover {
 	margin-bottom: 0px;
 	color: #fff;
 	overflow: hidden;
+}
+
+.page-banner2{
+	height:300px;
+	width: 100%;
+	background-image:url(../assets/banner6_720.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	margin-top:0px;
 }
 
 h2 {
